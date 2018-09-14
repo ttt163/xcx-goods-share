@@ -1,0 +1,24 @@
+<!--pages/browse_page2/index.wxml-->
+<page-contain nextUrl='../browse_page4/index'>
+  <view class="container">
+    <!-- 菜名  -->
+    <view class='cd'>
+      <view wx:key="{{index}}" wx:for="{{cd}}" class='ca-item'>
+        <image mode="aspectFill" src='../../img/browse/page2-cd_bg.png' />
+        <text>{{item}}</text>
+      </view>
+    </view>
+    <!-- 菜图片  -->
+    <view class='img-box'>
+      <image src='{{imgUrl}}' />
+    </view>
+    <!-- 导航  -->
+    <next-Nav nextUrl="../browse_page4/index" />
+    <!-- <navigator class='btn-next' url="../create_page2/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>创建</text>
+  </navigator> -->
+    <!-- 背景  -->
+    <image class='img-bg' src='../../img/browse/page2-bg.jpg' />
+  </view>
+</page-contain>

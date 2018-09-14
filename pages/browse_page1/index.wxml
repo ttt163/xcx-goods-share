@@ -1,0 +1,21 @@
+<!--pages/browse_page1/index.wxml-->
+<page-contain nextUrl='../browse_page2/index'>
+  <view class="container creat-index">
+    <!-- <image class='user-img' src='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIpH7AtySrDziaUUjT00oyyLqLgYeFPWiafKjUeLcay1pqjeyPdKYicqwUrdYvZic32qhlU8egImExXYQ/0'/> -->
+    <view class='mask'>
+      <view>
+        <text>“{{title}}”</text>
+        <view class='b-box'>
+          <view class='line'></view>
+          <text>{{userName}}</text>
+        </view>
+      </view>
+    </view>
+    <!-- <navigator class='btn-next' url="../create_page2/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>创建</text>
+  </navigator> -->
+    <next-Nav nextUrl="../browse_page2/index" />
+    <image class='img-bg' src='{{imgPath}}/browse/page1-bg.jpg' />
+  </view>
+</page-contain>

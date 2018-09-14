@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的今日大餐",
+  "usingComponents": {
+    "page-contain": "../../component/page-contain/page-contain",
+    "next-Nav": "../../component/nextNav/next-nav"
+  }
+}

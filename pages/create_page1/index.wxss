@@ -1,0 +1,12 @@
+/**index.wxss**/
+.mask {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40rpx;
+  height: 237rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ text-shadow:-1px 0 #b7b1b1, 0 1px #b7b1b1, 1px 0 #b7b1b1, 0 -1px #b7b1b1;
+}

@@ -1,0 +1,19 @@
+<!--pages/create_page2/index.wxml-->
+<page-contain nextUrl='../create_page3/index' isValidated='{{isValidated}}' msg='{{msg}}'>
+<view class="container creat-page2">
+  <view class='upload' bindtap="uploadImg">
+  <image class='upload-bg' src='{{img}}' />
+  <view class='upload-mask'></view>
+    <view class='upload-cont'>
+      <image class='add-img' src='../../img/creat/add.png' />
+      <text>上传今日大餐</text>
+    </view>
+  </view>
+  <next-Nav nextUrl="../create_page3/index" />
+  <!-- <navigator class='btn-next' url="../create_page3/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>评分</text>
+  </navigator> -->
+  <image class='img-bg' src='{{imgPath}}/creat/page2-bg.jpg' />
+</view>
+</page-contain>

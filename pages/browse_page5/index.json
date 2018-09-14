@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "创建我的大餐",
+  "usingComponents": {
+    "page-contain": "../../component/page-contain/page-contain",
+    "component-share": "../../component/share/component-share"
+  }
+}

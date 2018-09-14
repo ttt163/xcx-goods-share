@@ -1,0 +1,13 @@
+.btn-share {
+  width: 206rpx;
+  height: 70rpx;
+   line-height: 70rpx;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%,0,0);
+  /* bottom: 94rpx; */
+  font-size: 38rpx;
+  color: #49423a;
+  top:86%;
+}

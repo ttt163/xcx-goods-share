@@ -1,0 +1,44 @@
+/* pages/browse_page1/index.wxss */
+.user-img {
+  position: absolute;
+  top:20rpx;
+  right: 20rpx;
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+}
+.mask {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40rpx;
+  height: 237rpx;
+ text-shadow:-1px 0 #b7b1b1, 0 1px #b7b1b1, 1px 0 #b7b1b1, 0 -1px #b7b1b1;
+
+}
+.mask > view {
+   padding-top: 60rpx;
+   text-align: center;
+ /* padding-top: 100rpx;
+ padding-left: 190rpx; */
+}
+
+.mask > view > text {
+  display: block;
+}
+
+.b-box {
+  display: flex;
+  font-size: 28rpx;
+  align-items: center;
+  margin-right: 65rpx;
+  margin-top: 40rpx;
+  float:right;
+}
+
+.line {
+  width: 70rpx;
+  height: 2rpx;
+  background-color: #fff;
+  margin-right: 15rpx
+}

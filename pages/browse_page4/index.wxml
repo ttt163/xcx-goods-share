@@ -1,0 +1,24 @@
+<!--pages/browse_page4/index.wxml-->
+<page-contain nextUrl='../browse_page5/index'>
+<view class="container">
+  <!-- 菜图片  -->
+  <view class='img-box'>
+    <image src='{{imgUrl}}' />
+  </view>
+  <!-- label  -->
+  <view class='labels-box'>
+    <view wx:key='{{key}}' wx:for='{{labels}}' class='item'>
+       <image class='img-bg' src='../../img/browse/page4-text_bg.png' />
+      <text>{{item}}</text>
+    </view>
+  </view>
+  <!-- 导航  -->
+  <!-- <navigator class='btn-next' url="../create_page2/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>创建</text>
+  </navigator> -->
+  <next-Nav nextUrl="../browse_page5/index" />
+  <!-- 背景  -->
+  <image class='img-bg' src='../../img/browse/page4-bg.jpg' />
+</view>
+</page-contain>

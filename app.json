@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/create_page1/index",
+    "pages/create_page4/index",
+    "pages/create_page3/index",
+    "pages/create_page5/index",
+    "pages/create_page2/index",
+    "pages/browse_page2/index",
+    "pages/browse_page1/index",
+    "pages/browse_page5/index",
+    "pages/browse_page4/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1c1b20",
+    "navigationBarTitleText": "我的今日大餐",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,4 @@
+/* component/page-contain/page-contain.wxss */
+.page-contain {
+  height: 100%;
+}

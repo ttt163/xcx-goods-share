@@ -1,0 +1,15 @@
+<!--pages/browse_page5/index.wxml-->
+<page-contain nextUrl=''>
+<view class="container creat-page3">
+  <!-- 分享组件  -->
+   <component-share imgType='{{imgType}}' userName='{{userName}}' grades='{{grades}}' percent='{{percent}}' /> 
+  <navigator url="../create_page1/index">
+    <button class='btn'>创建我的大餐</button>
+  </navigator>
+  <!-- <navigator class='btn-next' url="../create_page3/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>下一步</text>
+  </navigator> -->
+  <image class='img-bg' src='../../img/creat/page5-bg.jpg' />
+</view>
+</page-contain>

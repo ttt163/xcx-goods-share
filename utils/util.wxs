@@ -1,0 +1,6 @@
+var floorNum = function (num) {
+  return Math.floor(num)
+}
+module.exports = {
+  floorNum: floorNum
+};

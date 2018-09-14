@@ -1,0 +1,16 @@
+var getActiveClass = function (item, arr) {
+  var _class = ''
+  if (!arr.length) {
+    _class = ''
+  }
+  var index = arr.indexOf(item)
+  if (index === -1) {
+    _class = ''
+  } else {
+    var _class = 'active-bg' + (index + 1)
+  }
+  return _class
+}
+module.exports = {
+  getActiveClass: getActiveClass
+};

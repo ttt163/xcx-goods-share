@@ -1,0 +1,127 @@
+/* component/nextNav/next-nav.wxss */
+
+.next-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.left {
+  width: 27rpx;
+  height: 44rpx;
+  opacity: 1;
+}
+
+.left:nth-of-type(1) {
+  /* animation: show2 1.5s linear infinite alternate; */
+  animation: show4 1s linear infinite;
+}
+
+.left:nth-of-type(2) {
+  animation: show3 1s linear infinite;
+}
+
+.left:nth-of-type(3) {
+  animation: show2 1s linear infinite;
+}
+
+ .left:nth-of-type(4) {
+  opacity: 0.4;
+} 
+
+@keyframes show1 {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  75% {
+   opacity: 0.4;
+  }
+
+  100% {
+    opacity: 0.4;
+  }
+}
+@keyframes show2 {
+  0% {
+     opacity: 0;
+  }
+
+  25% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  75% {
+   opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes show3 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+   opacity: 0.8;
+  }
+
+  75% {
+   opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes show4 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+   opacity: 1;
+  }
+
+  100% {
+   opacity: 0;
+  }
+}
+
+/* @keyframes show1 {
+  0% {
+    opacity: 0;
+     transform: translate3d(0,0,0);
+  }
+
+  100% {
+    opacity: 1;
+     transform: translate3d(-20rpx,0,0);
+  }
+} */

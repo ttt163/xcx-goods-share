@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择我的大餐菜品",
+  "usingComponents": {
+    "page-contain": "../../component/page-contain/page-contain",
+    "next-Nav": "../../component/nextNav/next-nav"
+  }
+}

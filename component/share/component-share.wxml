@@ -1,0 +1,19 @@
+<wxs src="../../utils/util.wxs" module="util" />
+<view class="share-modal">
+  <image mode="aspectFill" class='foods-img' src='{{foosImg}}' />
+  <view class='share-contain'>
+    <image style="width:{{imgType=='tangyuzhouzhige' ? '406rpx' : '318rpx'}}" class='text-img' mode="aspectFit" src='{{textImg}}' />
+    <view class='share-info'>
+      <view>
+        <view>{{userName}}的今日大餐</view>
+        <view>大餐丰盛度
+          <text class='red-color'>{{grades}}</text>
+        </view>
+        <view>超过了
+          <text class='red-color'>{{util.floorNum(percent)}}%</text>的网友</view>
+      </view>
+      <image class='ewm-img' mode="aspectFill" src='../../img/ewm.png' />
+    </view>
+  </view>
+  <slot></slot>
+</view>

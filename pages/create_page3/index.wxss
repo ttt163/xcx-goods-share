@@ -1,0 +1,129 @@
+/* pages/create_page3/index.wxss */
+
+.cd-modal {
+  position: absolute;
+  background: #fff;
+  border-radius: 25rpx;
+  color: #333;
+  width: 532rpx;
+  left: 50%;
+  top: 50%;
+  font-size: 32rpx;
+  transform: translate3d(-50%, -50%, 0);
+  overflow: hidden;
+}
+
+.cd-contain {
+  display: flex;
+}
+
+.cd-title {
+  height: 86rpx;
+  line-height: 86rpx;
+  text-align: center;
+  display: block;
+  border-bottom: 2rpx solid #f5f5f5;
+}
+
+.cd-nav {
+  font-size: 27.99rpx;
+  color: #666;
+  width: 150rpx;
+  background-color: #f8f8f8;
+}
+
+.nav-item {
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+}
+
+.nav-item.active {
+  color: #333;
+  background-color: #fff;
+}
+
+.cd-right {
+  margin: 0 22rpx 0 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-content {
+  font-size: 32rpx;
+  color: #333;
+  height: 490rpx;
+   overflow: auto; 
+}
+
+.nav-content::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* .nav-content::-webkit-scrollbar-button {
+  background-color: #f0f0f0;
+}
+
+.nav-content::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.nav-content::-webkit-scrollbar-track-piece {
+  background: #f0f0f0;
+}
+
+.nav-content::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 5px;
+}
+
+.nav-content::-webkit-scrollbar-corner {
+  background: #f0f0f0;
+} */
+
+.list-item {
+  height: 98rpx;
+  line-height: 98rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item.active {
+  color: #ff3e32;
+}
+
+.add-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 98rpx;
+  line-height: 98rpx;
+}
+
+.add-box input {
+  width: 256rpx;
+  padding-right: 25rpx;
+}
+
+.add-box button {
+  width: 66rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 24rpx;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-radius: 10rpx;
+}
+
+.pla-css {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.add-icon {
+  margin-right: 12rpx;
+}

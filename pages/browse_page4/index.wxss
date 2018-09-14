@@ -1,0 +1,60 @@
+/* pages/browse_page4/index.wxss */
+
+.img-box {
+  position: absolute;
+  z-index: 9;
+  /* top: 368rpx; */
+  top:28%;
+  border: 2px solid #fff;
+  border-radius: 25rpx;
+  overflow: hidden;
+  height: 422rpx;
+  width: 645rpx;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+
+.img-box image {
+  display: inline;
+   /* width: 645rpx;  */
+  /* height: 422rpx; */
+}
+
+/* labels  */
+
+.labels-box {
+  position: absolute;
+  z-index: 3;
+  /* bottom: 80rpx; */
+  color: #fffffe;
+  font-size: 36rpx;
+  display: flex;
+  width: 590rpx;
+  flex-wrap: wrap;
+  left: 105rpx;
+  top:70%;
+  /* text-align: center; */
+}
+
+.labels-box .item {
+  position: relative;
+  width: 219rpx;
+  height: 120rpx;
+  margin-right: 60rpx;
+  /* margin-bottom: 20rpx; */
+}
+
+.labels-box image {
+  width: 219rpx;
+  height: 120rpx;
+  position: absolute;
+}
+
+.labels-box text {
+  position: absolute;
+  line-height: 100rpx;
+  z-index: 1;
+  width: 219rpx;
+  text-align: center;
+  transform: rotate(-15deg);
+}

@@ -1,0 +1,31 @@
+<!--pages/create_page3/index.wxml-->
+<page-contain nextUrl='../create_page4/index' isValidated='{{isValidated}}' msg='{{msg}}'>
+  <view class="container creat-page3">
+    <view class='cd-modal'>
+      <text class='cd-title'>选择我的大餐菜品</text>
+      <view class='cd-contain'>
+        <view class='cd-nav'>
+          <view data-type='{{index}}' bindtap="choseFoodsType" class="nav-item {{index==currFoorType ?'active':''}}" wx:key="{{index}}" wx:for="{{navData}}">{{item}}</view>
+        </view>
+        <view class='cd-right'>
+          <view class='nav-content'>
+            <view wx:key="{{index}}" wx:for="{{currfoodsNames}}" class="list-item {{!item.select ?'':'active'}}">
+              <text bindtap="choseFood" data-index="{{index}}" data-item="{{item}}">{{item.name}}</text>
+              <image catchtap="delFood" data-index="{{index}}" wx:if="{{item.add}}" class='add-icon' src='../../img/creat/del.png' />
+            </view>
+          </view>
+          <view class='add-box'>
+            <input bindinput='addFoodsName' placeholder-class="pla-css" value='{{currAddFoodsName}}' placeholder="点击输入自定义菜品" />
+            <button bindtap="addFood" class='red-btn-bg'>添加</button>
+          </view>
+        </view>
+      </view>
+    </view>
+    <next-Nav nextUrl="../create_page4/index" />
+    <!-- <navigator class='btn-next' url="../create_page4/index" hover-class="navigator-hover">
+    <image class='next-bg' src='../../img/next-bg.png' />
+    <text>下一步</text>
+  </navigator> -->
+    <image class='img-bg' src='{{imgPath}}/creat/page3-bg.jpg' />
+  </view>
+</page-contain>

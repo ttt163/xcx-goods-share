@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<page-contain nextUrl='../create_page2/index' isValidated='{{isValidated}}' msg='{{msg}}'>
+<!-- <view bindtouchstart="touchStart" bindtouchend="touchEnd" class="container creat-index"> -->
+<view class="container creat-index">
+  <view class='mask'>
+    <text>“{{title}}”</text>
+  </view>
+  <next-Nav nextUrl="../create_page2/index" />
+  <image class='img-bg' src='{{imgPath}}/browse/page1-bg.jpg' />
+</view>
+</page-contain>

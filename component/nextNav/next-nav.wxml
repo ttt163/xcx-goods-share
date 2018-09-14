@@ -1,0 +1,13 @@
+<!--component/nextNav/next-nav.wxml-->
+<!-- <navigator class='next-nav' url="{{nextUrl}}" hover-class="navigator-hover"> -->
+<!-- <image class='left' src='../../img/left/left1.png' />
+  <image class='left' src='../../img/left/left2.png' />
+  <image class='left' src='../../img/left/left3.png' /> -->
+<view class='next-nav'>
+  <image class='left' src='../../img/left/left4.png' />
+  <image class='left' src='../../img/left/left4.png' />
+  <image class='left' src='../../img/left/left4.png' />
+  <image class='left' src='../../img/left/left4.png' />
+</view>
+
+<!-- </navigator> -->

@@ -1,0 +1,4 @@
+<!--component/page-contain/page-contain.wxml-->
+<view class='page-contain' bindtouchstart="touchStart" bindtouchend="touchEnd">
+ <slot></slot>
+</view>

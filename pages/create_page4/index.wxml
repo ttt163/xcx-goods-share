@@ -1,0 +1,51 @@
+<!--pages/create_page4/index.wxml-->
+<wxs src="./index.wxs" module="page4" />
+<page-contain nextUrl='' isValidated='{{isValidated}}' msg='{{msg}}'>
+<view class="container creat-page2">
+  <!-- 上传  -->
+  <view class='upload' bindtap="uploadImg">
+    <image mode="aspectFill" class='upload-bg' src='{{img}}' />
+    <view class='upload-mask'></view>
+    <view class='upload-cont'>
+      <image class='add-img' src='../../img/creat/add.png' />
+      <text>上传招牌菜图片</text>
+    </view>
+  </view>
+  <!-- 标签  -->
+  <view class='labels'>
+    <view>
+      <view class='label-top'>
+        <text>选择标签</text>
+        <view bindtap='changeLabels'>
+          <image class='refresh-icon' src='../../img/creat/refresh.png' />
+          <text>换一组</text>
+        </view>
+      </view>
+      <view class='labels-cont'>
+        <view class='labels-rows'>
+          <view bindtap='choseLabelsFn' data-item='{{item}}' wx:key="{{index}}" wx:for="{{_labelText}}" 
+          class="label-item {{page4.getActiveClass(item, choseLabels)}}">
+          {{item}}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view>
+      <text class='labels-title'>已选标签：</text>
+      <view class='labels-cont'>
+        <view class='labels-rows'>
+          <view bindtap='delLabels' data-index='{{index}}' wx:for="{{choseLabels}}" wx:key="{{index}}" class='label-item active-bg{{index+1}}'>{{item}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='kspd-next' bindtap='evaluate'>
+    <text>开</text>
+    <text>始</text>
+    <text>评</text>
+    <text>定</text>
+  </view> 
+  <!-- <next-Nav nextUrl="../create_page5/index" /> -->
+  <image class='img-bg' src='{{imgPath}}/creat/page4-bg.jpg' />
+</view>
+</page-contain>
